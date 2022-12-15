@@ -1,0 +1,20 @@
+body {
+    background: url(https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg);
+    background-size: cover;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+#latHeader {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#lngHeader {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+

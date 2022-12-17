@@ -17,13 +17,29 @@
         font-weight: bold;
         text-decoration: underline;
     }
+
+    div {
+        width: 300px;
+        height: auto;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 @media only screen and (min-width: 601px) {
     body {
         background: url(https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg);
         background-size: cover;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }   
+
+    main {
+        grid-column-start: 1;
+    }
 
     h3 {
         text-decoration: underline;
@@ -37,5 +53,24 @@
     #lngHeader {
         font-weight: bold;
         text-decoration: underline;
+    }
+
+    div {
+        position: absolute;
+        width: 300px;
+        height: auto;
+        grid-row-start: 1;
+        grid-column-end: 3;
+        justify-self: end;
+
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    form {
+        grid-column-start: 1;
     }
 }

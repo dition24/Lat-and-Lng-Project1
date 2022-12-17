@@ -1,7 +1,7 @@
 const $city = $('#city');
 const $latitude = $('#latitude');
 const $longitude = $('#longitude');
-const $input = $('input[type="text"]');
+const $input = $('#cityList');
 
 
 let coordinatesInfo, userInput
@@ -23,7 +23,6 @@ function handleGetData(event) {
         console.log("bad request", error)
       }
     )
-    $input.val("");
   }
 
 

@@ -3,6 +3,7 @@ const $latitude = $('#latitude');
 const $longitude = $('#longitude');
 const $input = $('input[type="text"]');
 
+
 let coordinatesInfo, userInput
 
 $("form").on("submit", handleGetData)
@@ -22,6 +23,7 @@ function handleGetData(event) {
         console.log("bad request", error)
       }
     )
+    $input.text = ""
   }
 
 

@@ -1,20 +1,41 @@
-body {
-    background: url(https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg);
-    background-size: cover;
+@media only screen and (max-width: 600px) {
+
+    body {
+        background-color: skyblue;
+    }
+
+    h3 {
+        text-decoration: underline;
+    }
+
+    #latHeader {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    #lngHeader {
+        font-weight: bold;
+        text-decoration: underline;
+    }
 }
 
-h3 {
-    text-decoration: underline;
+@media only screen and (min-width: 601px) {
+    body {
+        background: url(https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg);
+        background-size: cover;
+    }   
+
+    h3 {
+        text-decoration: underline;
+    }
+
+    #latHeader {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    #lngHeader {
+        font-weight: bold;
+        text-decoration: underline;
+    }
 }
-
-#latHeader {
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-#lngHeader {
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-

@@ -57,7 +57,7 @@
 
     div {
         position: absolute;
-        width: 300px;
+        width: 400px;
         height: auto;
         grid-row-start: 1;
         grid-column-end: 3;

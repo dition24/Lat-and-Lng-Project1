@@ -23,7 +23,7 @@ function handleGetData(event) {
         console.log("bad request", error)
       }
     )
-    $input.text = ""
+    $input.val("");
   }
 
 
